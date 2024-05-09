@@ -1,1 +1,1 @@
-# metacryst_website
+This is official website of Metacryst club 
