@@ -70,7 +70,7 @@ function Navbar() {
           <a href="/news">News</a>
           <a href="/activities">Activities</a>
           <a href="/team">Team</a>
-          <button className={styles.joinus}>Join Us</button>
+          <button className={styles.joinus} onClick={() => window.location.href='https://chat.whatsapp.com/HL0GTYmaxIGKxkPVugqjdR'}>Join Us</button>
           <a
             href="javascript:void(0);"
             className={styles.icon}
