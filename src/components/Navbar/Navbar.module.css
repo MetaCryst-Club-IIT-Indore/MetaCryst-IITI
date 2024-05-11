@@ -1,5 +1,3 @@
-
-
 /* metacryst clubname and logo design  */
 .clubname {
   text-decoration: none;
@@ -16,15 +14,13 @@
   background-position: center;
 } */
 
-
- /* navbar design and responsiveness */
+/* navbar design and responsiveness */
 .navbar {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
-
   overflow: hidden;
   background-color: #804a8d;
 }
@@ -41,14 +37,14 @@
 }
 
 .topnav a:hover {
- text-decoration: underline;
+  text-decoration: none;
   color: rgb(40, 7, 58);
   scale: 1.2;
   transition-duration: 0.3s;
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -97,14 +93,19 @@
   display: block;
   text-align: left;
 }
+/* styling for the join us button */
 
- .joinus{
+.joinus {
   float: right;
   background-color: #2be053;
-  padding:6px 20px 6px 20px;
+  padding: 6px 20px 6px 20px;
   border: 2px solid black;
   border-radius: 10px;
   margin: 8px 50px 8px 50px;
- }
+}
 
-
+.joinus:hover {
+  scale: 1.1;
+  transition-duration: 0.5s;
+  background-color: #07da35;
+}

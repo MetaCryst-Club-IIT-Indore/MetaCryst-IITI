@@ -3,19 +3,19 @@ import styles from "./Navbar.module.css";
 import metalogo from "../../assets/metalogo.png";
 import iitilogo from "../../assets/iitilogo.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [isResponsive, setIsResponsive] = useState(false);
 
-  function handleToggle() {
+  const handleToggle = () => {
     setIsResponsive((prevState) => !prevState);
-  }
+  };
 
   return (
     <>
       <div className={styles.clubname}>
         <div className={styles.logo}>
-          {" "}
           <a href="/">
             <img
               src={metalogo}
@@ -39,10 +39,10 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            Metacryst Club - IIT Indore
+            MetaCryst Club - IIT Indore
           </a>
         </div>
-        <div >
+        <div>
           <a href="https://www.iiti.ac.in/" target="_blank">
             <img
               src={iitilogo}
@@ -65,11 +65,11 @@ function Navbar() {
           }`}
           id="myTopnav"
         >
-          <a href="/">Home</a>
-          <a href="/aboutus">About us</a>
-          <a href="/news">News</a>
-          <a href="/activities">Activities</a>
-          <a href="/team">Team</a>
+          <Link to="/" >Home</Link>
+          <Link to="/aboutus" >About us</Link>
+          <Link to="/news" >News</Link>
+          <Link to="/activities" >Activities</Link>
+          <Link to="/team" >Team</Link>
           <button className={styles.joinus} onClick={() => window.location.href='https://chat.whatsapp.com/HL0GTYmaxIGKxkPVugqjdR'}>Join Us</button>
           <a
             href="javascript:void(0);"
