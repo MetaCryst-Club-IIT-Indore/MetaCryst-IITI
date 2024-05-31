@@ -1,74 +1,161 @@
+/* body{
+  background-image:url(../../assets/metalogo.png);
+  background-repeat: no-repeat;
+  background-position: center ;
+} */
+
+.container{
+  /* background: rgba(182, 47, 194, 0.3); */
+  background: linear-gradient(to right, #b47fed, #9970a3);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .loader {
+  background-color: black;
   position: relative;
   width: 2.5em;
   height: 2.5em;
-  transform: rotate(165deg);
- }
- 
- .loader:before, .loader:after {
+  transform-origin: center;
+  transition: 1s;
+  border-radius: 50px;
+  box-shadow: inset 0px 0px 10px purple,
+  inset 5px 5px 12px rgba(44, 0, 114, 0.8),
+  inset 8px 8px 1px rgba(160, 120, 255, 0.7),
+  0px 0px 1px rgba(160, 120, 255, 0.6);
+  animation: 1.2s linear infinite 0s running first682;
+}
+
+.loader div {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+}
+
+.first {
+  transform: rotate(90deg)
+}
+
+.first::before {
+  --width: 1em;
+  --height: 1em;
   content: "";
   position: absolute;
-  top: 50%;
-  left: 50%;
-  display: block;
-  width: 0.5em;
-  height: 0.5em;
-  border-radius: 0.25em;
-  transform: translate(-50%, -50%);
- }
- 
- .loader:before {
-  animation: before8 2s infinite;
- }
- 
- .loader:after {
-  animation: after6 2s infinite;
- }
- 
- @keyframes before8 {
-  0% {
-   width: 0.5em;
-   box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
-  }
- 
-  35% {
-   width: 2.5em;
-   box-shadow: 0 -0.5em rgba(225, 20, 98, 0.75), 0 0.5em rgba(111, 202, 220, 0.75);
-  }
- 
-  70% {
-   width: 0.5em;
-   box-shadow: -1em -0.5em rgba(225, 20, 98, 0.75), 1em 0.5em rgba(111, 202, 220, 0.75);
-  }
- 
-  100% {
-   box-shadow: 1em -0.5em rgba(225, 20, 98, 0.75), -1em 0.5em rgba(111, 202, 220, 0.75);
-  }
- }
- 
- @keyframes after6 {
-  0% {
-   height: 0.5em;
-   box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
-  }
- 
-  35% {
-   height: 2.5em;
-   box-shadow: 0.5em 0 rgba(61, 184, 143, 0.75), -0.5em 0 rgba(233, 169, 32, 0.75);
-  }
- 
-  70% {
-   height: 0.5em;
-   box-shadow: 0.5em -1em rgba(61, 184, 143, 0.75), -0.5em 1em rgba(233, 169, 32, 0.75);
-  }
- 
-  100% {
-   box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0.75);
-  }
- }
- 
- .loader {
+  top: 100%;
+  left: calc(50% - var(--width)/2);
+  width: 1em;
+  height: 1em;
+  background-color: rgb(44, 0, 114);
+  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),
+  0px 0px 2px white;
+  border-radius: 50px;
+  animation: 0.8s ease-in 0s infinite running jump2;
+}
+
+.second {
+  transform: rotate(90deg);
+}
+
+.second::before {
+  --width: 1em;
+  --height: 1em;
+  content: "";
   position: absolute;
-  top: calc(50% - 1.25em);
-  left: calc(50% - 1.25em);
- }
+  top: 100%;
+  left: calc(50% - var(--width)/2);
+  width: 1em;
+  height: 1em;
+  background-color: rgb(44, 0, 114);
+  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),
+  0px 0px 2px white;
+  border-radius: 50px;
+  animation: 1.5s ease-in 0s infinite running jump2;
+}
+
+.third {
+  transform: rotate(90deg)
+}
+
+.third::before {
+  --width: 1em;
+  --height: 1em;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - var(--width)/2);
+  width: 1em;
+  height: 1em;
+  background-color: rgb(44, 0, 114);
+  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),
+  0px 0px 2px white;
+  border-radius: 50px;
+  animation: 1.6s ease-in 0s infinite running jump2;
+}
+
+.loader::after {
+  --width: 1em;
+  --height: 1em;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: calc(50% - var(--width)/2);
+  width: 1em;
+  height: 1em;
+  background-color: rgb(44, 0, 114);
+  box-shadow: inset 5px 5px 10px rgb(160, 120, 255),
+  0px 0px 2px white;
+  border-radius: 50px;
+  animation: 1.2s ease-in 1s alternate infinite running jump2;
+}
+
+@keyframes first682 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(0deg);
+    transform: rotate(90deg)
+  }
+
+  50% {
+    transform: rotate(90deg);
+    transform: rotate(180deg);
+  }
+
+  75% {
+    transform: rotate(180deg);
+    transform: rotate(270deg)
+  }
+
+  100% {
+    transform: rotate(270deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes jump2 {
+  0% {
+    top: 100%;
+  }
+
+  25% {
+    top: 230%
+  }
+
+  50% {
+    top: 100%;
+  }
+
+  75% {
+    height: 0.6em
+  }
+
+  100% {
+    height: 1em
+  }
+}
