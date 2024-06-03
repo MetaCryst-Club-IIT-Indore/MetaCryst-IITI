@@ -33,17 +33,17 @@ function Footer() {
             <Link to="/">Home</Link>
           </div>
           <div className={styles.links}>
-            <Link to="/aboutus">About us</Link>
+            <Link to="/explore">Explore</Link>
           </div>
           <div className={styles.links}>
             {" "}
-            <Link to="/news">News</Link>
-          </div>
-          <div className={styles.links}>
-            <Link to="/activities">Activities</Link>
+            <Link to="/projects">Projects</Link>
           </div>
           <div className={styles.links}>
             <Link to="/team">Team</Link>
+          </div>
+          <div className={styles.links}>
+            <Link to="/events">Events</Link>
           </div>
         </div>
 

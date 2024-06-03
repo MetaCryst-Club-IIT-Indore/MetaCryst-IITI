@@ -37,8 +37,7 @@ function Navbar() {
               fontWeight: "bold",
               color: "black",
               textDecoration: "none",
-            }}
-          >
+            }}>
             MetaCryst Club - IIT Indore
           </a>
         </div>
@@ -63,19 +62,24 @@ function Navbar() {
           className={`${styles.topnav} ${
             isResponsive ? styles.responsive : ""
           }`}
-          id="myTopnav"
-        >
-          <Link to="/" >Home</Link>
-          <Link to="/aboutus" >About us</Link>
-          <Link to="/news" >News</Link>
-          <Link to="/activities" >Activities</Link>
-          <Link to="/team" >Team</Link>
-          <button className={styles.joinus} onClick={() => window.location.href='https://chat.whatsapp.com/HL0GTYmaxIGKxkPVugqjdR'}>Join Us</button>
+          id="myTopnav">
+          <Link to="/">Home</Link>
+          <Link to="/explore">Explore</Link>
+          <Link to="/projects">Projects</Link>
+          <Link to="/team">Team</Link>
+          <Link to="/events">Events</Link>
+          <button
+            className={styles.joinus}
+            onClick={() =>
+              (window.location.href =
+                "https://chat.whatsapp.com/HL0GTYmaxIGKxkPVugqjdR")
+            }>
+            Join Us
+          </button>
           <a
             href="javascript:void(0);"
             className={styles.icon}
-            onClick={handleToggle}
-          >
+            onClick={handleToggle}>
             <i className="fas fa-bars"></i>
           </a>
         </div>

@@ -2,9 +2,9 @@ import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/footer/footer";
 import ScrollToTop from "../../components/scrolltop/scrolltop";
-import styles from "./News.module.css";
-// import design from "../../assets/design.png";
-import NewsCard from "../../components/NewsCard";
+// import "./projects.module.css";
+import design from "../../assets/design.png";
+import PCard from "../../components/projectsCard";
 
 // function News() {
 //   return (
@@ -19,7 +19,7 @@ import NewsCard from "../../components/NewsCard";
 //         }}>
 //         <h3 className={styles.name}>IIT Indore</h3>
 //         <img
-//           style={{ height: "600px", width: "187px", position: "relative" }}
+//           style={{ height: "610px", width: "187px", position: "relative" }}
 //           src={design}
 //         />
 //         <h1 className={styles.heading}>Latest News</h1>
@@ -27,7 +27,13 @@ import NewsCard from "../../components/NewsCard";
 //           Latest News
 //         </h1> */}
 //       </div>
-//       <div style={{ display: "inline-block", width: "800px" }}>
+//       <div
+//         style={{
+//           display: "inline-block",
+//           width: "1072px",
+//           height: "650px",
+//           backgroundColor: "#533857",
+//         }}>
 //         <div className={styles.images}></div>
 //         <div className={styles.images}></div>
 //         <div className={styles.images}></div>
@@ -45,32 +51,31 @@ import NewsCard from "../../components/NewsCard";
 //             border: "3px solid #000",
 //           }}></div>
 //       </div>
+//       <Footer></Footer>
 //     </div>
 //   );
 // }
 
 // export default News;
 
-function News() {
+function Projects() {
   return (
     <>
       <ScrollToTop></ScrollToTop>
       <Navbar></Navbar>
 
-      <h1 className={styles.heading}>Latest News</h1>
-      <div class="container">
-        <div class="row row-cols-md-3 row-cols-sm-2">
-          <NewsCard></NewsCard>
-          <NewsCard></NewsCard>
-          <NewsCard></NewsCard>
-          <NewsCard></NewsCard>
-          <NewsCard></NewsCard>
-          <NewsCard></NewsCard>
-        </div>
-      </div>
+      <h1 style={{ textAlign: "center" }}>Projects</h1>
+      {/* <div class="container">
+        <div class="row row-cols-md-3 row-cols-sm-2"> */}
+      <PCard></PCard>
+      <PCard></PCard>
+      <PCard></PCard>
+      <PCard></PCard>
+      {/* </div>
+      </div> */}
       <Footer></Footer>
     </>
   );
 }
 
-export default News;
+export default Projects;
