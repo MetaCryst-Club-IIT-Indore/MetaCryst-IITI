@@ -49,7 +49,7 @@
   font-size: large;
   font-family: " sans-serif";
   font-weight: normal;
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: space-between;
   text-decoration: none;
