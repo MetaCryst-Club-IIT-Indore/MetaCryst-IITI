@@ -22,23 +22,25 @@ function Navbar() {
               alt=""
               style={{
                 margin: "1vh 2vw",
-                width: "65px",
-                height: "50px",
+                width: "80px",
+                height: "70px",
                 backgroundColor: "transparent",
+                
               }}
             />
           </a>
         </div>
-        <div style={{ margin: "1vh 2vw" }}>
+        <div style={{ margin: "1vh 2vw " }}>
           <a
             href="/"
             style={{
-              fontSize: "4vh",
+              fontSize: "5.5vh",
               fontWeight: "bold",
-              color: "black",
+              color: "white",
               textDecoration: "none",
-            }}>
-            MetaCryst Club - IIT Indore
+            }}
+          className={styles.name}>
+            The MetaCryst Club - IIT Indore
           </a>
         </div>
         <div>
@@ -48,8 +50,8 @@ function Navbar() {
               alt=""
               style={{
                 margin: "1vh 2vw",
-                width: "65px",
-                height: "50px",
+               width: "80px",
+                height: "70px",
                 backgroundColor: "transparent",
               }}
             />
@@ -63,11 +65,12 @@ function Navbar() {
             isResponsive ? styles.responsive : ""
           }`}
           id="myTopnav">
-          <Link to="/">Home</Link>
-          <Link to="/explore">Explore</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/team">Team</Link>
-          <Link to="/events">Events</Link>
+          <Link to="/" ><div className="text-xl font-serif">Home</div></Link>
+          <Link to="/explore"><div  className="text-xl font-serif">Explore</div></Link>
+          <Link to="/projects"><div  className="text-xl font-serif">Projects</div></Link>
+          
+          <Link to="/events"><div  className="text-xl font-serif">Events</div></Link>
+          <Link to="/team"><div  className="text-xl font-serif">Team</div></Link>
           <button
             className={styles.joinus}
             onClick={() =>

@@ -28,22 +28,22 @@ function Footer() {
         </div>
         <div className={styles.quicklinks}>
           <div className={styles.title}>Quick Links</div>
-          <hr />
+    
           <div className={styles.links}>
-            <Link to="/">Home</Link>
+            <Link to="/">➤ Home</Link>
           </div>
           <div className={styles.links}>
-            <Link to="/explore">Explore</Link>
+            <Link to="/explore">➤ Explore</Link>
           </div>
           <div className={styles.links}>
             {" "}
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">➤ Projects</Link>
           </div>
           <div className={styles.links}>
-            <Link to="/team">Team</Link>
+            <Link to="/team">➤ Team</Link>
           </div>
           <div className={styles.links}>
-            <Link to="/events">Events</Link>
+            <Link to="/events">➤ Events</Link>
           </div>
         </div>
 
@@ -51,14 +51,14 @@ function Footer() {
           <div
             style={{
               fontSize: "larger",
-              fontWeight: "bolder",
+              fontWeight: "bold",
               display: "flex",
               alignitems: "center",
-              marginTop: "1.6vh",
+              marginTop: "1vh",
             }}>
             Social media
           </div>
-          <hr />
+       
           <div>
             <a
               href="https://www.instagram.com/iitindoreofficial/?hl=en"
@@ -88,9 +88,9 @@ function Footer() {
         </div>
       </div>
 
-      <div className={styles.rights}>
+      <center className={styles.rights}>
         &copy; MetaCryst Club - IIT Indore @2024 . All Rights Reserved
-      </div>
+      </center>
     </>
   );
 }
