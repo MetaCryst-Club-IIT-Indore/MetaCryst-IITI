@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Loader from './components/loader/loader';
 
+
 function App() {
   const [isLoading, setIsLoading] = useState(true);
 
