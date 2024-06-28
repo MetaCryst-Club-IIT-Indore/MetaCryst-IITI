@@ -3,7 +3,8 @@ import styles from './loader.module.css';
 
 function Loader() {
   return (
-    <><div className={styles.container}>
+    <>
+    <div className="flex items-center justify-center h-[100vh]"><div className={styles.container}>
       <div className={styles.loader}>
     <div className={styles.first}>
       <div className={styles.second}>
@@ -13,7 +14,8 @@ function Loader() {
     </div>
   </div></div>
   <div class="loader pl-6">
-   <div data-glitch="Loading..." class="glitch">Loading...</div>
+   <div data-glitch="Loading..." class={styles.glitch}>Loading...</div>
+</div>
 </div></>
   );
 }

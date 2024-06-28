@@ -6,8 +6,8 @@
 
 .container{
   /* background: rgba(182, 47, 194, 0.3); */
-  background: radial-gradient(rgb(32, 19, 34) 0.5%, rgb(0, 0, 0));
-  width: 100%;
+  /* background: radial-gradient(rgb(32, 19, 34) 0.5%, rgb(0, 0, 0)); */
+  width: 20%;
   height: 100vh;
   display: flex;
   align-items: center;
