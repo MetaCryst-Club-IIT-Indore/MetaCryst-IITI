@@ -64,7 +64,7 @@ function Hero() {
 }
   return (
     <>
-      <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden herocontain" style={{background:"radial-gradient(rgb(92 37 108) 1%, rgb(11 30 36))"}} >
+      <div className="text-white border-red-700 border-0 font-serif flex  overflow-x-hidden herocontain" style={{background:"radial-gradient(rgb(82 27 88) 0.5%, rgb(00 00 00)"}} >
         {/* outermost flex-item-1 */}
         <div className={`border-0 border-green-600 sm:w-[50%] w-[100%]`}>
           <motion.div id="heading" className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]" 

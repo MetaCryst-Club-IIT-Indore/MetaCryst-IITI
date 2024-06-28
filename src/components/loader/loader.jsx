@@ -11,7 +11,10 @@ function Loader() {
         </div>
       </div>
     </div>
-  </div></div></>
+  </div></div>
+  <div class="loader pl-6">
+   <div data-glitch="Loading..." class="glitch">Loading...</div>
+</div></>
   );
 }
 

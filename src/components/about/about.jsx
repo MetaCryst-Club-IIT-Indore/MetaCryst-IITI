@@ -4,13 +4,16 @@ import Dhruvjain from "../../assets/team/DhruvJain.png";
 function About() {
   return (
     <>
-      <div className="aboutusname">About us</div>
+      <div className="aboutusname">About Us</div>
       <div className="card" >
-  <h5 className="text-3xl font-bold"> &lt; Our Vision /&gt;</h5>
+  <h5 className="text-3xl font-bold"> Our Vision </h5>
   <div className="card-body" id="body1">
     {/* <h5 className="card-title">Special title treatment</h5> */}
-    <p className="card-text" >MetaCryst at IIT Indore is a vibrant community dedicated to the advancement of material science. Created to inspire interest in material properties and applications, the club serves as a hub for both beginners and enthusiasts. Through hands-on workshops, insightful lectures, and collaborative research projects, members develop a deep understanding of material science and crystallography. The club provides access to cutting-edge equipment, enabling participants to conduct experiments and analyze various materials. Partnerships with experts and industry leaders enhance the learning experience, offering valuable insights and opportunities. Whether you’re a budding material scientist or simply fascinated by the subject, MetaCryst at IIT Indore welcomes you to explore the endless possibilities of material science.
+    <p className="card-text" >The MetaCryst Club at IIT Indore is a student community focused on material science and metallurgy. As part of the Science and Technology Council, we offer a platform for students to engage in these fields through workshops, seminars, guest lectures, and hands-on projects.
 
+We facilitate connections with the college's labs and provide opportunities for practical learning and research. Collaborations with experts and academic organizations enhance our members' experiences and broaden their knowledge.
+
+Join the MetaCryst Club to explore and contribute to the future of material science and metallurgy. Be part of a community that encourages curiosity and innovation.
 
 
 

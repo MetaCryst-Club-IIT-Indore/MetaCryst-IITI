@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
 .body{
   font-family: "Poppins", sans-serif;
 }
@@ -8,7 +10,8 @@
   text-decoration: none;
   display: flex;
   justify-content: space-around;
-  background-color: #603b76;
+  background-color: #000000;
+  font-family: "Orbitron", sans-serif;
 }
 
 
@@ -26,12 +29,12 @@
   top: 0;
   z-index: 1000;
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #4c2057;
+  background-color: #000000;
   display: flex;
   justify-content: space-around;
 }
@@ -49,7 +52,7 @@
 
 .topnav a:hover {
   text-decoration: none;
-  color: rgb(40, 7, 58);
+  color: white;
   scale: 1.15;
   transition-duration: 0.3s;
   text-shadow: 0px 0px 10px #f2f2f2 ;
