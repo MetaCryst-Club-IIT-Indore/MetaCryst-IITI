@@ -9,13 +9,12 @@ function Footer() {
     <>
       <div className={styles.container}>
         <div className={styles.logocontainer}>
-          <div className={styles.clubname}> MetaCryst Club </div>
+          <div className={styles.clubname}>MetaCryst Club</div>
           <div className={styles.logo}>
             <a href="/">
-              {" "}
               <img
                 src={metalogo}
-                alt=""
+                alt="MetaCryst Club Logo"
                 style={{
                   margin: "1vh 2vw",
                   width: "150px",
@@ -28,7 +27,6 @@ function Footer() {
         </div>
         <div className={styles.quicklinks}>
           <div className={styles.title}>Quick Links</div>
-    
           <div className={styles.links}>
             <Link to="/">➤ Home</Link>
           </div>
@@ -36,7 +34,6 @@ function Footer() {
             <Link to="/explore">➤ Explore</Link>
           </div>
           <div className={styles.links}>
-            {" "}
             <Link to="/projects">➤ Projects</Link>
           </div>
           <div className={styles.links}>
@@ -46,54 +43,56 @@ function Footer() {
             <Link to="/events">➤ Events</Link>
           </div>
         </div>
-
         <div className={styles.contactus}>
           <div
             style={{
               fontSize: "larger",
               fontWeight: "bold",
               display: "flex",
-              alignitems: "center",
+              alignItems: "center",
               marginTop: "1vh",
-            }}>
+            }}
+          >
             Social media
           </div>
-       
-          <div>
+          <div className={styles.iconContainer}>
             <a
-              href="https://www.instagram.com/iitindoreofficial/?hl=en"
+              href="https://www.instagram.com/metacryst_iiti/"
               target="_blank"
-              rel="noreferrer">
-              <span class="icon-instagram"></span>
+              rel="noreferrer"
+
+            >
+              <span className={styles.icons}><i class="fa-brands fa-instagram"></i></span>
             </a>
             <a
               href="https://www.facebook.com/IIT-Indore-108781240868622"
               target="_blank"
-              rel="noreferrer">
-              <span class="icon-facebook"></span>
+              rel="noreferrer"
+            >
+              <span className={styles.icons}><i class="fa-brands fa-facebook"></i></span>
             </a>
             <a
-              href="https://www.linkedin.com/school/iit-indore/"
+              href="https://www.linkedin.com/company/metacryst-club-iit-indore/mycompany/"
               target="_blank"
-              rel="noreferrer">
-              <span class="icon-linkedin"></span>
+              rel="noreferrer"
+            >
+              <span className={styles.icons}><i class="fa-brands fa-linkedin" ></i></span>
             </a>
             <a
               href="https://twitter.com/IITIOfficial"
               target="_blank"
-              rel="noreferrer">
-              <span class="icon-twitter"></span>
+              rel="noreferrer"
+            >
+              <span className={styles.icons}><i class="fa-brands fa-x-twitter"></i></span>
             </a>
           </div>
         </div>
       </div>
-
       <center className={styles.rights}>
-        &copy; MetaCryst Club - IIT Indore @2024 . All Rights Reserved
+        &copy; MetaCryst Club - IIT Indore @2024. All Rights Reserved
       </center>
     </>
   );
 }
 
 export default Footer;
- 
