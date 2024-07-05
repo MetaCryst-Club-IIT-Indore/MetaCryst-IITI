@@ -64,13 +64,13 @@ function Footer() {
             >
               <span className={styles.icons}><i class="fa-brands fa-instagram"></i></span>
             </a>
-            <a
+            {/* <a
               href="https://www.facebook.com/IIT-Indore-108781240868622"
               target="_blank"
               rel="noreferrer"
             >
               <span className={styles.icons}><i class="fa-brands fa-facebook"></i></span>
-            </a>
+            </a> */}
             <a
               href="https://www.linkedin.com/company/metacryst-club-iit-indore/mycompany/"
               target="_blank"
@@ -78,13 +78,13 @@ function Footer() {
             >
               <span className={styles.icons}><i class="fa-brands fa-linkedin" ></i></span>
             </a>
-            <a
+            {/* <a
               href="https://twitter.com/IITIOfficial"
               target="_blank"
               rel="noreferrer"
             >
               <span className={styles.icons}><i class="fa-brands fa-x-twitter"></i></span>
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
