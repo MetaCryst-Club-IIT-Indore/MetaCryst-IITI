@@ -25,7 +25,6 @@ function Navbar() {
                 width: "80px",
                 height: "70px",
                 backgroundColor: "transparent",
-                
               }}
             />
           </a>
@@ -39,7 +38,7 @@ function Navbar() {
               color: "white",
               textDecoration: "none",
             }}
-          className={styles.name}>
+            className={styles.name}>
             The MetaCryst Club - IIT Indore
           </a>
         </div>
@@ -50,7 +49,7 @@ function Navbar() {
               alt=""
               style={{
                 margin: "1vh 2vw",
-               width: "80px",
+                width: "80px",
                 height: "70px",
                 backgroundColor: "transparent",
               }}
@@ -65,12 +64,22 @@ function Navbar() {
             isResponsive ? styles.responsive : ""
           }`}
           id="myTopnav">
-          <Link to="/" ><div className="text-xl ">Home</div></Link>
-          <Link to="/explore"><div  className="text-xl ">Explore</div></Link>
-          <Link to="/projects"><div  className="text-xl ">Projects</div></Link>
-          
-          <Link to="/events"><div  className="text-xl ">Events</div></Link>
-          <Link to="/team"><div  className="text-xl ">Team</div></Link>
+          <Link to="/">
+            <div className="text-xl ">Home</div>
+          </Link>
+          <Link to="/explore">
+            <div className="text-xl ">Explore</div>
+          </Link>
+          <Link to="/projects">
+            <div className="text-xl ">Projects</div>
+          </Link>
+
+          <Link to="/events">
+            <div className="text-xl ">Events</div>
+          </Link>
+          <Link to="/team">
+            <div className="text-xl ">Team</div>
+          </Link>
           <button
             className={styles.joinus}
             onClick={() =>

@@ -68,6 +68,7 @@ function Events() {
       </div>
       <div className="flex flex-wrap justify-around gap-5 w-full">
         {data.flat().map(ECard)}
+        {/* <ECard /> */}
       </div>
       <div className="mt-10">
         <Footer></Footer>

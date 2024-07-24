@@ -1,15 +1,16 @@
 // src/ResponsiveCard.js
 import React from "react";
 
-const ResponsiveCard = ({ image, name, description, link }) => {
+const ResponsiveCard = ({ ref, image, name, description, link }) => {
   return (
     <div
+      ref={ref}
       onClick={() => window.open(link, "_blank")}
       className=" cursor-pointer bg-white/10 w-full sm:w-[90%] md:w-[80%] lg:w-[60%] p-6 flex flex-col sm:flex-row items-center rounded-3xl gap-4 md:gap-8 mx-auto my-3">
       <div className="image-container w-full sm:w-1/3">
         <img
           className="w-full h-auto rounded-xl object-cover"
-          src="../../src/assets/design.png"
+          src={image}
           alt={name}
         />
       </div>
