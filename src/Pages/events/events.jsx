@@ -8,17 +8,16 @@ import img from "../../assets/design.png";
 
 const data = [
   {
-    name: "Event Name",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    link: "https://www.google.com",
+    name: "Student-Lab Connect Initiative",
+    description:"Providing access and introductory sessions to various laboratories and their ongoing research to 1st and 2nd year students to find their interest in research areas.",
+    link: "",
     imgurl: img,
   },
   {
-    name: "Event Name",
+    name: "MetaBizz Quiz'25",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    link: "https://www.google.com",
+      "Annual Quiz Event",
+    link: "",
     imgurl: img,
   },
   {
