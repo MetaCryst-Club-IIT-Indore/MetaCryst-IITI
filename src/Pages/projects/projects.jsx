@@ -35,7 +35,7 @@ const data = [
     link: "",
     imgurl: img,
   }
-
+];
 
 function Projects() {
   return (
