@@ -25,15 +25,15 @@ const data = [
   {
     name: "Synthesising Biomaterials",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    link: "https://www.google.com",
+      "Synthesising environment friendly bio-plastic material from easily available substances.",
+    link: "https://link.springer.com/article/10.1007/s42452-019-1460-x",
     imgurl: img,
   },
   {
     name: "Solar cell from beetroot juice",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    link: "https://www.google.com",
+      "Developing an Improved solar cell and energy generation material using Beetroot juice and optimising its efficiency.",
+    link: "",
     imgurl: img,
   }
 
