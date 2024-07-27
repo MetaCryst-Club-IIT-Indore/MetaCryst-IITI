@@ -19,7 +19,6 @@ const data = [
     name: "Corrosion studies with ferric chloride",
     description:"Investigation of corrosion behaviour of iron nails and steel wool in ferric chloride solutions. This experiment is to be done by varying the concentration of ferric chloride and by studying the effects of corrosion rates.",
     link: "https://doi.org/10.1016/j.jmrt.2024.01.194",
-    link: "https://doi.org/10.1016/j.jmrt.2023.12.121",
     imgurl: img,
   },
   {
