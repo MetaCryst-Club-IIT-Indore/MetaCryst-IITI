@@ -17,7 +17,8 @@ const data = [
   },
   {
     name: "Corrosion studies with ferric chloride",
-    description:"Investigation of corrosion behaviour of iron nails and steel wool in ferric chloride solutions. This experiment is to be done by varying the concentration of ferric chloride and by studying the effects of corrosion rates.",
+    description:
+      "Investigation of corrosion behaviour of iron nails and steel wool in ferric chloride solutions. This experiment is to be done by varying the concentration of ferric chloride and by studying the effects of corrosion rates.",
     link: "https://doi.org/10.1016/j.jmrt.2024.01.194",
     imgurl: img,
   },
@@ -34,7 +35,34 @@ const data = [
       "Developing an Improved solar cell and energy generation material using Beetroot juice and optimising its efficiency.",
     link: "",
     imgurl: img,
-  }
+  },
+];
+
+const data1 = [
+  {
+    name: "abc",
+    description: "abc",
+    link: "abc",
+    imgurl: img,
+  },
+  {
+    name: "abc",
+    description: "abc",
+    link: "abc",
+    imgurl: img,
+  },
+  {
+    name: "abc",
+    description: "abc",
+    link: "abc",
+    imgurl: img,
+  },
+  {
+    name: "abc",
+    description: "abc",
+    link: "abc",
+    imgurl: img,
+  },
 ];
 
 function Projects() {
@@ -49,7 +77,7 @@ function Projects() {
       </div>
       <h1 className={styles.projectsname}>Upcoming Projects</h1>
       <div className="max-xl:flex max-xl:flex-wrap max-xl:justify-center">
-        {data.flat().map(PCard)}
+        {data1.flat().map(PCard)}
       </div>
       <Footer></Footer>
     </>
