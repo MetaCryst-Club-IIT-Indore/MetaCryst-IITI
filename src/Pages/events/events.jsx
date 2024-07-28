@@ -9,14 +9,14 @@ import img from "../../assets/design.png";
 const data = [
   {
     name: "Student-Lab Connect Initiative",
-    description:"Providing access and introductory sessions to various laboratories and their ongoing research to 1st and 2nd year students to find their interest in research areas.",
+    description:"Providing access and introductory sessions to various laboratories and their ongoing research for 1st and 2nd year students helps them discover their interests in different research areas. This initiative aims to inspire early engagement in scientific inquiry and foster a deeper understanding of potential research pathways.",
     link: "",
     imgurl: img,
   },
   {
     name: "MetaBizz Quiz'25",
     description:
-      "Annual Quiz Event",
+      "The Annual Quiz Event conducted by the club in which multiple rounds of quizzing takes place. Materials science and metallurgical knowledge is tested in the most fun and exciting way possible. Be a part of this quizzing event to prove your metal-mettle",
     link: "",
     imgurl: img,
   },
