@@ -27,7 +27,7 @@ function About() {
         </div>
       </div>
       <div id="msgheading">Message from Founders</div>
-      <div className="containermain flex justify-center items-center">
+      <div className="containermain flex justify-center items-center ">
         <div className="messagecontainer">
           <div className="headphoto">
             <img src={founder1} alt="" />

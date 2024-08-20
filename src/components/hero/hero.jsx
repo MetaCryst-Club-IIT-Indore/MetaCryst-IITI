@@ -69,10 +69,11 @@ function Hero() {
           whileInView="visible"
           style={{ fontFamily: "Trebuchet MS" }}
         >
-          Welcome to The
-          <span style={{ color: "rgb(199, 152, 223)" }}> MetaCryst Club</span>
-          <div className="lg:block my-2 py-2 hidden font-bold text-5xl bg-gradient-to-r from-pink-600 via-black-500 to-indigo-400 text-transparent bg-clip-text">
-            <Typewriter
+          Welcome to 
+          <br/>
+          <span style={{ color: "rgb(199, 152, 223)" }} className="text-5xl"> The MetaCryst Club</span>
+          <div className="lg:block my-2 py-2 hidden font-bold text-3xl bg-gradient-to-r from-green-600 via-black-500 to-indigo-400 text-transparent bg-clip-text">
+            <Typewriter className=""
               words={[
                 "Materials science ...",
                 "Metallurgy ...",
@@ -80,7 +81,7 @@ function Hero() {
               ]}
               loop={0}
               cursor
-              cursorStyle="|"
+              cursorStyle={<span className="text-5xl">•</span>}
               cursorColor="rgb(37,99,235)"
               typeSpeed={70}
               deleteSpeed={50}
