@@ -5,7 +5,7 @@ function ECard(props) {
   return (
     <>
       <div className={styles.card}>
-        <div className=" p-3 rounded-lg bg-white/10 h-auto w-[400px] border-2 border-white">
+        <div className=" p-3 rounded-lg bg-white/10 h-[700px] w-[400px] border-2 border-white">
           <div
             className=" bg-cover rounded-lg h-[200px] w-full"
             style={{ backgroundImage: `url(${props.imgurl})` }}></div>
