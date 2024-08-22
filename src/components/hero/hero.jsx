@@ -54,12 +54,12 @@ function Hero() {
 
   return (
     <div
-      className="text-white border-red-700 border-0 font-serif flex overflow-x-hidden herocontain"
+      className="text-white border-red-700 border-0 font-serif flex flex-wrap overflow-x-hidden herocontain"
       style={{
         background: "radial-gradient(rgb(82 27 88) 0.5%, rgb(00 00 00)",
       }}
     >
-      <div className="border-0 border-green-600 sm:w-[50%] w-[100%]">
+      <div className="border-0 border-green-600 w-full md:w-1/2 order-1 md:order-2">
         <motion.div
           id="heading"
           className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]"
@@ -107,7 +107,7 @@ function Hero() {
         </motion.div>
       </div>
 
-      <div className="sm:w-[50%] w-[100%] md:w-[50%] m-5 h-100 rounded-md shadow-slate-50 border-2 carousel1">
+      <div className="w-full md:w-2/5 m-5 h-100 rounded-md shadow-slate-50 border-2 order-2 md:order-1 carousel1">
         <Carousel fade className="borderglow">
           <Carousel.Item>
             <img
