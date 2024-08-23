@@ -67,6 +67,9 @@ function Navbar() {
           <Link to="/">
             <div className="text-xl ">Home</div>
           </Link>
+          <Link to="/about">
+            <div className="text-xl ">About Us</div>
+          </Link>
           <Link to="/explore">
             <div className="text-xl ">Explore</div>
           </Link>

@@ -12,7 +12,7 @@ function Home() {
       <ScrollToTop></ScrollToTop>
       <Navbar></Navbar>
       <Hero></Hero>
-      <About></About>
+      {/* <About></About> */}
       <Footer></Footer>
     </>
   );

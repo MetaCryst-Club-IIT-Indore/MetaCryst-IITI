@@ -5,6 +5,7 @@ import Events from "./events/events";
 import Projects from "./projects/projects";
 import Team from "./team/team";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Aboutus from "./aboutus/aboutus";
 
 function Pages() {
   return (
@@ -12,6 +13,7 @@ function Pages() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Aboutus />} />
           <Route path="/explore" element={<Explore />} />
           <Route path="/events" element={<Events />} />
           <Route path="/projects" element={<Projects />} />

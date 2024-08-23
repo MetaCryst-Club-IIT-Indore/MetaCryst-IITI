@@ -11,7 +11,7 @@ function About() {
         <h5 className="text-3xl font-bold"> Our Vision </h5>
         <div className="card-body" id="body1">
           {/* <h5 className="card-title">Special title treatment</h5> */}
-          <p className="card-text">
+          <p className="text-xs md:text-lg">
             The MetaCryst Club at IIT Indore is a student community focused on
             material science and metallurgy. As part of the Science and
             Technology Council, we offer a platform for students to engage in
@@ -28,12 +28,12 @@ function About() {
       </div>
       <div id="msgheading">Message from Founders</div>
       <div className="containermain flex justify-center items-center ">
-        <div className="messagecontainer">
+        <div className="messagecontainer flex ">
           <div className="headphoto">
             <img src={founder1} alt="" />
           </div>
           <div className="headmessage">
-            <div className="content">
+            <div className="text-xs md:text-sm ">
               {/* Welcome to the MetaCryst Club of IIT Indore! <br />
               At MetaCryst, our passion lies in discovering the intricacies of
               material science. We provide a platform for students, faculty, and

@@ -13,7 +13,7 @@
 
 .logocontainer {
   width: 33%;
-  background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0));
+  /* background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0)); */
 }
 
 .logo {
@@ -38,7 +38,7 @@
   flex-direction: column;
   justify-content: space-around;
   width: 33%;
-  background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0));
+  /* background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0)); */
 }
 .quicklinks .title {
   font-size: larger;
@@ -67,7 +67,7 @@
 
 .contactus {
   width: 33%;
-  background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0));
+  /* background: radial-gradient(rgb(58, 31, 62) 0.5%, rgb(0, 0, 0)); */
 
     font-size: 1.3em;
 }

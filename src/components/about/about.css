@@ -9,6 +9,7 @@ body{
   background: radial-gradient(rgb(32, 19, 34) 0.5%, rgb(0, 0, 0));
 }
 .aboutusname{
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,15 +39,15 @@ body{
   font-family: "Poppins", sans-serif;
   transition: background-color 1s ease, color 1s ease, box-shadow 1s ease !important;
 }
-
-.card:hover{
-  background-color: #603b76 !important;
-  color: white !important;
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.7);
-}
+    /* 
+    .card:hover{
+      background-color: #603b76 !important;
+      color: white !important;
+      box-shadow: 0 0 5px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7), 0 0 15px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.7);
+    } */
 
 .containermain {
-  height: 40vh;
+  min-height: 60vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -69,7 +70,8 @@ background: radial-gradient(rgb(82, 27, 88) 0.5%, rgb(0, 0, 0));
 
 .messagecontainer{
   display: flex;
-
+  justify-content: center;
+  align-items: center;
   flex-direction: row !important;
   width: 80vw;
 }
@@ -77,20 +79,22 @@ background: radial-gradient(rgb(82, 27, 88) 0.5%, rgb(0, 0, 0));
   display: grid;
   place-items: center;
 height: 40vh;
+min-width: 350px;
   width: 20vw;
 }
 
 .headphoto img{
   position: relative;
-  width: 15vw;
-  height: 30vh;
+  min-width: 100px;
+  width: 75%;
+  height: 75%;
   border-radius: 5%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 .headmessage{
-  
+  min-width: 350px;
   width: 60vw;
   font-size: 2vh;
   font-family: "Poppins", sans-serif;
@@ -101,3 +105,11 @@ height: 40vh;
   align-items: center;
 }
 
+
+
+/*media queries */
+@media (max-width: 768px) {
+  .messagecontainer{
+ flex-wrap: wrap;
+  }
+}
