@@ -1,6 +1,7 @@
 import React from "react";
 import "./teamcard.css";
 import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 function Teamcard({ val }) {
   return (
@@ -30,6 +31,9 @@ function Teamcard({ val }) {
                   <FaGithub className="socIcon" />
                 </a>
               )}
+              <a href={"mailto:" + "mems220005001@iiti.ac.in"}>
+                <MdOutlineMail className="socIcon" />
+              </a>
             </div>
           </div>
         </div>

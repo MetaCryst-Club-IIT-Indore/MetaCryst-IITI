@@ -27,29 +27,13 @@ function About() {
         </div>
       </div>
       <div id="msgheading">Message from Founders</div>
-      <div className="containermain flex justify-center items-center ">
-        <div className="messagecontainer flex ">
+      <div className="containermain">
+        <div className="messagecontainer flex justify-center items-center ">
           <div className="headphoto">
             <img src={founder1} alt="" />
           </div>
           <div className="headmessage">
             <div className="text-xs md:text-sm ">
-              {/* Welcome to the MetaCryst Club of IIT Indore! <br />
-              At MetaCryst, our passion lies in discovering the intricacies of
-              material science. We provide a platform for students, faculty, and
-              enthusiasts to explore, innovate, and collaborate. Through
-              workshops, lectures, and research opportunities, we foster a
-              community dedicated to advancing material science and uncovering
-              the secrets of crystalline structures.
-              <br />
-              <br />
-              Warm regards,
-              <br />
-              Dhruv Jain
-              <br />
-              Club Head
-              <br />
-              MetaCryst Club, IIT Indore */}
               Sitting at Shiru Cafe, brainstorming about arbitrary points, was
               when framing a departmental club came into the image. The
               Department of Metallurgy Engineering and Materials Science (MEMS)
