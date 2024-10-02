@@ -6,7 +6,10 @@ import Projects from "./projects/projects";
 import Team from "./team/team";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Aboutus from "./aboutus/aboutus";
-
+import Page1 from "./explore/page1";
+import Page2 from "./explore/page2";
+import Page3 from "./explore/page3";
+import Page4 from "./explore/page4";
 function Pages() {
   return (
     <>
@@ -18,6 +21,10 @@ function Pages() {
           <Route path="/events" element={<Events />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/team" element={<Team />} />
+          <Route path="/metallurgy" element={<Page1 />} />
+          <Route path="/material" element={<Page2 />} />
+          <Route path="/gate" element={<Page3 />} />
+          <Route path="/steel" element={<Page4 />} />
         </Routes>
       </Router>
     </>

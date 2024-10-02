@@ -33,9 +33,10 @@
 
 .topnav {
   overflow: hidden;
-  background-color: #000000;
+  background: rgba(255, 255, 255, );
+  backdrop-filter: blur(12px);
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .topnav a {

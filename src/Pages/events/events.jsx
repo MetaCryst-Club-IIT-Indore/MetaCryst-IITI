@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/footer/footer";
+import Footer2 from "../../components/footer/footer2";
 import ScrollToTop from "../../components/scrolltop/scrolltop";
 import styles from "./events.module.css";
 import ECard from "./EventCard";
@@ -70,7 +70,7 @@ function Events() {
         {/* <ECard /> */}
       </div>
       <div className="mt-10">
-        <Footer></Footer>
+        <Footer2></Footer2>
       </div>
     </>
   );

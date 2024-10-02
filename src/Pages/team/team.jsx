@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from '../../components/Navbar/Navbar'
-import Footer from '../../components/footer/footer'
+import Footer2 from "../../components/footer/footer2";
 import ScrollToTop from '../../components/scrolltop/scrolltop'
 import './team.css'
 import Webdev from "./webdev";
@@ -18,7 +18,7 @@ function Team() {
 			<Webdev />
      
 		
-      <Footer></Footer>
+      <Footer2></Footer2>
     </>
   );
 }

@@ -54,7 +54,7 @@ function Hero() {
 
   return (
     <div
-      className="text-white border-red-700 border-0 font-serif flex flex-wrap overflow-x-hidden herocontain"
+      className="text-white border-red-700  font-serif flex flex-wrap overflow-x-hidden herocontain"
       style={{
         background: "radial-gradient(rgb(82 27 88) 0.5%, rgb(00 00 00)",
       }}

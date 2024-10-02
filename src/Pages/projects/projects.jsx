@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/footer/footer";
+import Footer2 from "../../components/footer/footer2";
 import ScrollToTop from "../../components/scrolltop/scrolltop";
 import styles from "./projects.module.css";
 import design from "../../assets/design.png";
@@ -79,7 +79,7 @@ function Projects() {
       <div className="max-xl:flex max-xl:flex-wrap max-xl:justify-center">
         {data1.flat().map(PCard)}
       </div>
-      <Footer></Footer>
+      <Footer2></Footer2>
     </>
   );
 }
