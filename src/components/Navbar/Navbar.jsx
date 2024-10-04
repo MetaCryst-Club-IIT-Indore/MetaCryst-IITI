@@ -83,6 +83,10 @@ function Navbar() {
           <Link to="/team">
             <div className="text-xl ">Team</div>
           </Link>
+          <Link to="/blog">
+            <div className="text-xl ">Blog</div>
+          </Link>
+          
           <button
             className={styles.joinus}
             onClick={() =>

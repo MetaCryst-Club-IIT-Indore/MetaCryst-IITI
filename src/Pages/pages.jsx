@@ -10,6 +10,7 @@ import Page1 from "./explore/page1";
 import Page2 from "./explore/page2";
 import Page3 from "./explore/page3";
 import Page4 from "./explore/page4";
+import Blog from "./blogPage/Blog";
 function Pages() {
   return (
     <>
@@ -25,6 +26,7 @@ function Pages() {
           <Route path="/material" element={<Page2 />} />
           <Route path="/gate" element={<Page3 />} />
           <Route path="/steel" element={<Page4 />} />
+          <Route path="/blog" element={<Blog />} />
         </Routes>
       </Router>
     </>
