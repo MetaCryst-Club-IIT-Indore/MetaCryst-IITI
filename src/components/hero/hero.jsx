@@ -9,7 +9,6 @@ import Carousel from "react-bootstrap/Carousel";
 import astrotalk from "../../assets/hero/Metabizz24.png";
 import astrotalk1 from "../../assets/hero/meta2.jpeg";
 import hundredhrs from "../../assets/hero/meta3.jpg";
-
 function Hero() {
   const linkRef = useRef(null);
 
@@ -58,6 +57,7 @@ function Hero() {
       style={{
         background: "radial-gradient(rgb(82 27 88) 0.5%, rgb(00 00 00)",
       }}
+
     >
       <div className="border-0 border-green-600 w-full md:w-1/2 order-1 md:order-2">
         <motion.div

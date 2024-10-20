@@ -1,0 +1,55 @@
+/* #app {
+    height: 100%;
+  }
+  
+  html, body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+   
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  } */
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Move the pagination a little below */
+  .swiper-pagination {
+    bottom: -20px !important;
+  }
+  
+  /* Style the navigation buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #f5f2f2; /* Make the buttons black */
+  }
+  
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    font-size: 20px; /* Adjust the size of the arrow buttons */
+  }
+  

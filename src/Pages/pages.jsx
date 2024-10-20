@@ -11,6 +11,7 @@ import Page2 from "./explore/page2";
 import Page3 from "./explore/page3";
 import Page4 from "./explore/page4";
 import Blog from "./blogPage/Blog";
+import Course1 from "./CoursesPages/Course1";
 function Pages() {
   return (
     <>
@@ -27,6 +28,7 @@ function Pages() {
           <Route path="/gate" element={<Page3 />} />
           <Route path="/steel" element={<Page4 />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/course1" element={<Course1 />} />
         </Routes>
       </Router>
     </>
