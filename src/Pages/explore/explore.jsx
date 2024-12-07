@@ -202,7 +202,7 @@ function Explore() {
               className="bg-yellow-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-yellow-700"
               onClick={() => handleNavigation('/steel')}
             >
-              <h2 className="text-4xl font-bold mt-5 ">Steel</h2>
+              <h2 className="text-4xl font-bold mt-5 ">Miscellaneous</h2>
 
             </div>
           </div>

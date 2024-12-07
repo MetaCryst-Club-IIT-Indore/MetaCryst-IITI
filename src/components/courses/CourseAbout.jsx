@@ -1,16 +1,16 @@
 import React from 'react'
 const data = [
     {
-        question: "why Summer Analytics?",
-        description:"With the availability of numerous paid and free courses across the internet, it becomes overwhelming for students to start with Data Science. To demystify the process, we painstakingly curate a list of topics from over 25+ websites and create a simplified path for our community to follow within 2 month",
+        question: "why Materials Science?",
+        description:"With the availability of numerous paid and free courses across the internet, it becomes overwhelming for students to start with materials Science. To demystify the process, we painstakingly curate a list of topics from over 25+ websites and create a simplified path for our community to follow within 2 month",
     },
     {
         question: "What does it cover?",
-        description:"Data Science is all about extracting meaningful insights from huge amount of data. This online data science certification course will revolve around the concepts of Python, Machine Learning, Data Cleaning and Data Analysis. This course will help you understand core concepts and the latest advancements including aspects of Supervised and Unsupervised machine learning, and introduce you to the very latest tools and algorithms used in the industry.",
+        description:"materials Science is all about extracting meaningful insights from huge amount of data. This online data science certification course will revolve around the concepts of Python, Machine Learning, Data Cleaning and Data Analysis. This course will help you understand core concepts and the latest advancements including aspects of Supervised and Unsupervised machine learning, and introduce you to the very latest tools and algorithms used in the industry.",
     },
     {
         question: "Who We Are?",
-        description:"The course is conducted by Consulting & Analytics Club, IIT Guwahati, in the winter, and along with Winter Consulting and other initiatives, we support 25K+ students and professionals each year. The online course was started to train the students from IIT Guwahati but has eventually spread out to universities and organisations across India and beyond - spanning 35+ countries worldwide.",
+        description:"The course is conducted by Metacryst Club, IIT Indore, in the winter, we support 25K+ students and professionals each year. The online course was started to train the students from IIT Indore but has eventually spread out to universities and organisations across India and beyond - spanning 35+ countries worldwide.",
     },
 ]
 const CourseAbout = () => {

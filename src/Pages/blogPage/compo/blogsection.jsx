@@ -5,7 +5,7 @@ const blog = [
         description: "Metal strength is related to the mechanical loads that a component can withstand before deforming or breaking. For structural components, metal strength is the first property designers think of because a component must be able to support an applied load without deforming, cracking, or fracturing.",
         link:"https://www.imetllc.com/metal-strength/",
         name:"Industrial Metallurgist",
-        image:"https://cdn-icons-png.flaticon.com/512/9203/9203764.png",
+        image:"https://scitechdaily.com/images/Metal-Strength-Concept.jpg",
     },
     {
         title: "Metal Strength",

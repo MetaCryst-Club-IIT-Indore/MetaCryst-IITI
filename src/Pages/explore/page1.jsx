@@ -31,7 +31,7 @@ const application = [
 //for post
 const data = [
   {
-    image: "https://img.freepik.com/free-photo/futuristic-metaverse-empty-room-product-display-presentation-abstract-technology-scifi-with-neon-light-3d-background_56104-2314.jpg",
+    image: "https://cdn.hswstatic.com/gif/gettyimages-492798423.jpg",
     description: "",
     link: ""
   },
@@ -64,17 +64,17 @@ const Page1 = () => {
         {/* upper section -- About Metallurgy  */}
         <div className="flex flex-wrap justify-center  mt-5 mx-2">
           <div className="lg:w-1/3  p-4">
-            <img src={log} alt="Photo" className="w-[450px] h-[350]] object-cover rounded-lg" />
+            <img src={"https://cdn.thefabricator.com/a/its-all-about-why-0.jpg"} alt="Photo" className="w-[450px] h-[350]] object-cover rounded-lg" />
           </div>
           <div className="lg:w-2/3 p-4 mt-5">
             <h2 className="lg:text-5xl sm:text-3xl font-bold mb-5 text-neutral-300 ">About Metallurgy</h2>
             <p className="text-xl text-neutral-400">Metallurgy is the science and technology of metals,
               involving the extraction, processing, and development of metal materials.
-              It encompasses various techniques like smelting, refining, and alloy production
+              It includes various techniques like smelting, refining, and alloy production
               to manipulate the properties of metals for industrial and commercial use. Metallurgy
-              is divided into two main branches: physical metallurgy, which deals with the mechanical
-              properties and behavior of metals, and extractive metallurgy, focusing on extracting
-              metals from their ores. Its applications range from the creation of everyday items like
+              is divided into few main branches: Mechanical Metallurgy, which deals with the mechanical
+              properties and behavior of metals, Extractive metallurgy, focusing on extracting
+              metals from their ores, Physical metallurgy etc. Its applications range from the creation of everyday items like
               tools and machinery to advanced uses in aerospace, construction, and electronics, making
               it crucial to modern industry.</p>
           </div>
@@ -144,8 +144,8 @@ const Page1 = () => {
               <h1 className="flex-grow sm:pr-16 text-xl font-medium title-font text-neutral-300">
                 For more information kindly refer to the given link!!
               </h1>
-              {/* add link here */}
-              <a href="">
+              { }
+              <a href="https://science.howstuffworks.com/metallurgy.htm">
                 <button className="flex-shrink-0 text-white bg-custom-purple border-0 py-2 px-8 focus:outline-none hover:bg-purple-bg rounded text-lg mt-10 sm:mt-0">
                   Learn More..
                 </button></a>

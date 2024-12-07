@@ -23,15 +23,15 @@ const CourseHero = () => {
         {/* Course Banner */}
         <div className="mt-10 pt-5 text-left">
           <div className="inline-block bg-gray-800 px-3 py-1 rounded-full text-sm uppercase tracking-wide">
-            Course is Live!
+            Course will be Live Soon!
           </div>
           <h2 className="text-4xl md:text-5xl font-bold mt-4">
-            A Primer Course on Data Science and Machine Learning
+            A Primer Course on Materials Science and Characterisation
           </h2>
           {/* animations */}
           <p className="mt-4 text-lg ">
 
-            Explore Data Analysis
+            Explore Materials like never before!
 
           </p>
 

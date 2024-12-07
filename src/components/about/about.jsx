@@ -35,17 +35,17 @@ function About() {
           <div className="headmessage">
             <div className="text-xs md:text-sm ">
               Sitting at Shiru Cafe, brainstorming about arbitrary points, was
-              when framing a departmental club came into the image. The
-              Department of Metallurgy Engineering and Materials Science (MEMS)
+              when framing a new materials science club came into the image. 
+              Metallurgical Engineering and Materials Science (MEMS)
               at IIT Indore has been one of the most encouraging fields for more
               than quite a long while. To give the department an open arbiter as
               a specialized club, We, alongside the first graduating bunch of
-              MEMS, raised a club, to be specific 'Metacryst', with the help of
+              MEMS, raised a club, to be specific 'MetaCryst', with the help of
               a goal-oriented arrangement of resources.In a mission to advance
               redistribution of the branch and fabricate shared relations with
               industries, the club was set up to consistently address society's
               issues, tending to points that incorporate quality of life,
-              vitality, manageability, and data innovation.We trust 'Metacryst'
+              vitality, manageability, and data innovation.We trust 'MetaCryst'
               evolves while seeking after these subjects at the most elevated
               level, while at the same time keeping up a collegial and
               profoundly community air.
