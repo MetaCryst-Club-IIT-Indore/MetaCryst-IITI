@@ -16,7 +16,7 @@ function Head() {
   const [committee] = useState({
     members: [
       {
-        name: "Dhrurv Jain",
+        name: "Dhruv Jain",
         img: Dhruv,
         designation: "Overall Head",
         ig: "",
@@ -24,7 +24,7 @@ function Head() {
         git: "https://github.com/dhr-jain"
       },
       {
-        name: "Avdhoot",
+        name: "Avdhoot Kasture",
         img: Avdhoot,
         designation: "Treasurer",
         ig: "https://www.instagram.com/avdhoot_kasture20_04/",
@@ -42,7 +42,7 @@ function Head() {
       },
       {
     
-        name: "L. Kiranmayi",
+        name: "Lokery Kiranmayi",
         img: Lokery,
         designation: "Outreach Head",
         ig: "",
@@ -51,7 +51,7 @@ function Head() {
       },
       {
     
-        name: "Mrunal",
+        name: "Mrunal Nandpure",
         img: Mrunal,
         designation: "Events Head",
         ig: "https://www.instagram.com/mrunal_nandpure/",

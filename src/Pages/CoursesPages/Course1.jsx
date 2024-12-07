@@ -5,7 +5,7 @@ import CoursesCurriculum from '../../components/courses/CoursesCurriculum';
 
 const data = [
   {
-    question: "Why Summer Analytics?",
+    question: "Why the Materials Course?",
     description: "With the availability of numerous paid and free courses across the internet, it becomes overwhelming for students to start with Data Science. To demystify the process, we painstakingly curate a list of topics from over 25+ websites and create a simplified path for our community to follow within 2 months.",
   },
   {
@@ -14,7 +14,7 @@ const data = [
   },
   {
     question: "Who We Are?",
-    description: "The course is conducted by Consulting & Analytics Club, IIT Guwahati, in the winter. Along with Winter Consulting and other initiatives, we support 25K+ students and professionals each year. The online course was started to train the students from IIT Guwahati but has eventually spread out to universities and organizations across India and beyond - spanning 35+ countries worldwide.",
+    description: "The course is conducted by MetaCryst Club, IIT Indore, in the winter. Along with Winter Consulting and other initiatives, we support 25K+ students and professionals each year. The online course was started to train the students from IIT Guwahati but has eventually spread out to universities and organizations across India and beyond - spanning 35+ countries worldwide.",
   },
 ];
 

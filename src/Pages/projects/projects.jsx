@@ -9,14 +9,14 @@ import img from "../../assets/design.png";
 
 const data = [
   {
-    name: "Metallography and phase transformation analysis",
+    name: "CMT Welding",
     description:
-      "Understanding the concept of microstructure, phase and heat treatment processes. Observers can get familiarised with basic metallurgical concepts and the mechanical behaviour of materials. A good demonstration of the shape memory effect can also be done. ",
+      " ",
     link: "",
     imgurl: img,
   },
   {
-    name: "Corrosion studies with ferric chloride",
+    name: "Synthesis of Quantum Dots",
     description:
       "Investigation of corrosion behaviour of iron nails and steel wool in ferric chloride solutions. This experiment is to be done by varying the concentration of ferric chloride and by studying the effects of corrosion rates.",
     link: "https://doi.org/10.1016/j.jmrt.2024.01.194",

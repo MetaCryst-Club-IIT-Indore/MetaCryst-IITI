@@ -22,7 +22,7 @@ function Webdev() {
         git: "https://github.com/Dikshitsuthar",
       },
       {
-        name: "Shreyans ",
+        name: "Shreyans Kothari",
         img: shreyans,
         designation: "Member",
         ig: "https://in.linkedin.com/in/shreyans-kothari-3a80a722a",
