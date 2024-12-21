@@ -11,7 +11,7 @@ const Footer2 = () => {
                         <img src={logo} alt="" className='h-[68px] w-[68px]' />
                         <span className="ml-3 text-2xl">The MetaCryst Club</span>
                     </a>
-                    <p className="mt-2 text-sm text-gray-500">Discover, Innovate, Elevate</p>
+                    <p className="mt-2 text-sm text-gray-500">The Magic of Materials!</p>
                 </div>
                 <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
                     <div className="lg:w-1/2 md:w-1/2 w-full px-4">
