@@ -13,7 +13,8 @@ const Page3 = () => {
                 <button className="flex-shrink-0 text-white bg-custom-purple border-0 py-2 px-8 focus:outline-none hover:bg-purple-bg rounded text-lg mt-10 sm:mt-0">
                   Learn More..
                 </button></a>
-              <img src={"https://gate2025.iitr.ac.in/img/logos/green-logo.png"} alt="Photo" className="w-[450px] h-[350]] object-cover rounded-lg" />"} alt="Photo" className="w-[450px] h-[350]] object-cover rounded-lg" />
+                <img src="https://gate2025.iitr.ac.in/img/logos/green-logo.png" alt="Photo" class="w-[450px] h-[350px] object-cover rounded-lg" />
+
               
       <Footer2/>
     </>
