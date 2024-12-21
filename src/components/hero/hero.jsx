@@ -7,8 +7,8 @@ import { useInView } from "react-intersection-observer";
 import { Typewriter } from "react-simple-typewriter";
 import Carousel from "react-bootstrap/Carousel";
 import astrotalk from "../../assets/hero/Metabizz24.png";
-import astrotalk1 from "../../assets/hero/meta2.jpeg";
-import hundredhrs from "../../assets/hero/meta3.jpg";
+import astrotalk1 from "../../assets/hero/1c.png";
+import hundredhrs from "../../assets/nmd.png";
 function Hero() {
   const linkRef = useRef(null);
 
