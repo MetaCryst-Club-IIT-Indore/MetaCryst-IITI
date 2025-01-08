@@ -9,7 +9,7 @@ function Teamcard({ val }) {
       <div className="home-container">
         <div className="profile-card">
           <div className="img">
-            <img src={val.img} alt={val.name} />
+            {<img src={val.img} alt={val.name} /> }
           </div>
           <div className="caption">
             <h3>{val.name}</h3>
