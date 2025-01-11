@@ -17,8 +17,12 @@ import Pragathi from './Pragathi.jpg';
 import Samridhi from './Samridhi.jpg';
 import Shaksham from './Shaksham_Nigam.jpg';
 import Abhinav from './Abhinav Gurrapu.jpg';
-
-
+import Aakash from './Aakash_Sangvikar.jpg';
+import Mohak from './Mohak.jpg';
+import Kushagra from './Kushagra.jpg';
+import Amber from './Amber.jpg';
+import Aditya from './Aditya_S.jpg';
+import Shubham from './Shubham.jpg';
 export {
     Abhishek,
     Dikshit,
@@ -38,4 +42,10 @@ export {
     Pragathi,
     Apekshit,
     Abhinav,
+    Aakash,
+    Mohak,
+    Kushagra,
+    Amber,
+    Aditya,
+    Shubham
 }

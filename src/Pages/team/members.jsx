@@ -9,9 +9,16 @@ import {
   Apekshit,
   Dikshit,
   Pragathi,
+  Dhairya,
   Sahajmeet,
   Samridhi,
   Shaksham,
+  Aakash,
+  Mohak,
+  Kushagra,
+  Amber,
+  Aditya,
+  Shubham
 } from "../../assets/team";
 
 function Members() {
@@ -20,7 +27,7 @@ function Members() {
         {
             name: "Aakash Sangvikar",
             designation: "Member",
-            img: unknownb ,
+            img: Aakash ,
             ig: " ",
             lin: "https://www.linkedin.com/in/aakash-sangvikar/",
             git: " ",
@@ -29,7 +36,7 @@ function Members() {
           {
             name: "Aditya Sonkusare",
             designation: "Member",
-            img: unknownb ,
+            img: Aditya ,
             ig: " ",
             lin: " ",
             git: " ",
@@ -37,7 +44,7 @@ function Members() {
           {
             name: "Amber Verma",
             designation: "Member",
-            img: unknownb ,
+            img: Amber ,
             ig: " ",
             lin: "https://www.linkedin.com/in/amber-verma",
             git: " ",
@@ -77,7 +84,7 @@ function Members() {
           {
             name: "Dhairya Shrivastava",
             designation: "Member",
-            img: unknownb ,
+            img: Dhairya ,
             ig: "https://www.instagram.com/itsdhairya",
             lin: "https://in.linkedin.com/in/dhairya-srivastava-195a021b8",
             git: " ",
@@ -101,7 +108,7 @@ function Members() {
           {
             name: "Kushagra Shrikhande ",
             designation: "Member",
-            img: unknownb ,
+            img: Kushagra ,
             ig: "https://www.instagram.com/kush___133/profilecard/?igsh=MWNsbHMxb3pocGIxMQ==",
             lin: "https://www.linkedin.com/in/kushagra-shrikhande-396a152a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
             git: "",
@@ -109,7 +116,7 @@ function Members() {
           {
             name: "Mohak Dadhich",
             designation: "Member",
-            img: unknownb ,
+            img: Mohak ,
             ig: "https://www.instagram.com/dadhichmohak?igsh=MTJ5dHE0OTh6dmg1bA==",
             lin: "https://in.linkedin.com/in/dadhichmohak",
             git: "https://github.com/dadhichmohak",
@@ -151,7 +158,7 @@ function Members() {
           },
           {
             name: "Shubham Prajapati",
-            img: unknownb ,
+            img: Shubham ,
             designation: "Member",
             ig: "https://www.instagram.com/shubham_prajapati00.92?igsh=Njc5MXhkYnB1a2x6",
             lin: "https://in.linkedin.com/in/shubham-prajapati-56345b287",
