@@ -9,6 +9,7 @@ import Ferralytics from "../../assets/Ferralytics.png";
 import interact from "../../assets/hero/interact1.jpg";
 import mbq from "../../assets/mbq25.png";
 import te from "../../assets/hero/techexpo1.jpg";
+import magnum from "../../assets/hero/magnum.png";
 
 const data = [
   {
@@ -16,6 +17,13 @@ const data = [
     description:"The Annual Quiz Event conducted by the club in which multiple rounds of quizzing takes place. Materials science and metallurgical knowledge is tested in the most fun and exciting way possible. Be a part of this quizzing event to prove your metal-mettle",
     link: "",
     imgurl: mbq,
+  },
+  {
+    name: "Magnum Opus Tech-Expo 2025",
+    description:
+      "A Tech-Expo in collaboration with Alumni Cell on 11th and 12th January 2025. 8 clubs exhibited their ongoing projects and showcased the talents of their tech teams. Metacryst club actively participated in the expo showing its ongoing long-project related to CMT Welding.",
+    link: "https://www.google.com",
+    imgurl: magnum,
   },
   {
     name: "Ferralytics Challenge'24",
