@@ -28,12 +28,12 @@ function Webdev() {
       {
         name: "Shreyans kothari",
         designation: "Member",
-        img: shreyans ,
-        ig: " ",
+        img: shreyans,
+        ig: "/",
         lin: "https://in.linkedin.com/in/shreyans-kothari-3a80a722a",
-        git: " ",
+        git: "/",
       },
-      
+
       {
         name: "Abhishek AP",
         img: Abhishek,
@@ -45,7 +45,7 @@ function Webdev() {
       {
         name: "Mohit Garhewal",
         designation: "Member",
-        img: Mohit ,
+        img: Mohit,
         ig: "https://www.instagram.com/garhewalmohit/profilecard/?igsh=OGRubTFzbnF3bXg4",
         lin: "https://www.linkedin.com/in/mohit-garhewal-a6578b320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git: "https://github.com/mohitgarhewal",
@@ -53,20 +53,19 @@ function Webdev() {
       {
         name: "Pranav Manurkar",
         designation: "Member",
-        img: Pranav ,
-        ig: " ",
-        lin: " ",
+        img: Pranav,
+        ig: "/",
+        lin: "/",
         git: "https://github.com/PranavManurkar",
       },
       {
         name: "Abhinav Gurrapu",
         designation: "Member",
-        img: Abhinav ,
-        ig: " ",
+        img: Abhinav,
+        ig: "/",
         lin: "https://www.linkedin.com/in/g-abhinav-114399331",
         git: "https://github.com/AbhinavGurrapu",
       },
-     
     ],
   });
 
