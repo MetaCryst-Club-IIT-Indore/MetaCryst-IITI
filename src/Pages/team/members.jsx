@@ -18,7 +18,9 @@ import {
   Kushagra,
   Amber,
   Aditya,
-  Shubham
+  Shubham,
+  Chirag,
+  Ashwin
 } from "../../assets/team";
 
 function Members() {
@@ -60,7 +62,7 @@ function Members() {
           {
             name: "Ashwin Bansod",
             designation: "Member",
-            img: unknownb ,
+            img: Ashwin ,
             ig: " ",
             lin: " https://in.linkedin.com/in/ashwin-bansod-654106260",
             git: " ",
@@ -76,7 +78,7 @@ function Members() {
           {
             name: "Chirag Gour",
             designation: "Member",
-            img: unknownb ,
+            img: Chirag ,
             ig: " ",
             lin: "linkedin.com/in/chirag-gour",
             git: " ",

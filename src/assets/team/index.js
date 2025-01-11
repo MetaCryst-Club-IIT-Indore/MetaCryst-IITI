@@ -23,6 +23,8 @@ import Kushagra from './Kushagra.jpg';
 import Amber from './Amber.jpg';
 import Aditya from './Aditya_S.jpg';
 import Shubham from './Shubham.jpg';
+import Chirag from './chirag.jpeg';
+import Ashwin from './Ashwin.jpg' ;
 export {
     Abhishek,
     Dikshit,
@@ -47,5 +49,7 @@ export {
     Kushagra,
     Amber,
     Aditya,
-    Shubham
+    Shubham,
+    Ashwin,
+    Chirag
 }
