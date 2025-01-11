@@ -100,8 +100,7 @@ function Explore() {
       <div
         style={{
           background: "radial-gradient(rgb(82 27 88) 0.5%, rgb(00 00 00)",
-        }}
-      >
+        }}>
         <h1 className={styles1.explorename}>Explore</h1>
         {/* <div className="material-list flex flex-col lg:flex-nowrap items-center justify-center my-5 gap-5">
           {/* {data.map((item, index) => ( 
@@ -177,37 +176,32 @@ function Explore() {
           {/* ))} 
         </div> */}
         <div className="flex justify-center items-center mt-20 mb-5">
-          <div className="grid grid-cols-2 gap-8">
+          <div className="grid lg:grid-cols-2 gap-8 gird-cols-1">
             <div
               className="bg-blue-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-blue-700 h-[209px] w-[390px]"
-              onClick={() => handleNavigation('/metallurgy')}
-            >
+              onClick={() => handleNavigation("/metallurgy")}>
               <h2 className="text-4xl font-bold mt-5 ">Metallurgy</h2>
             </div>
             <div
-              className="bg-green-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-green-700"
-              onClick={() => handleNavigation('/material')}
-            >
+              className="bg-green-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-green-700 h-[209px] w-[390px]"
+              onClick={() => handleNavigation("/material")}>
               <h2 className="text-4xl font-bold mt-5 ">Material Science</h2>
-
             </div>
             <div
               className="bg-red-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-red-700 h-[209px] w-[390px]"
-              onClick={() => handleNavigation('/gate')}
-            >
-              <h2 className="text-4xl font-bold mt-4 ">GATE <br />Examination</h2>
-
+              onClick={() => handleNavigation("/gate")}>
+              <h2 className="text-4xl font-bold mt-4 ">
+                GATE <br />
+                Examination
+              </h2>
             </div>
             <div
-              className="bg-yellow-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-yellow-700"
-              onClick={() => handleNavigation('/steel')}
-            >
+              className="bg-yellow-500 text-white text-center rounded-lg p-8 shadow-lg cursor-pointer transition duration-300 hover:bg-yellow-700 h-[209px] w-[390px]"
+              onClick={() => handleNavigation("/steel")}>
               <h2 className="text-4xl font-bold mt-5 ">Miscellaneous</h2>
-
             </div>
           </div>
         </div>
-
       </div>
       <Footer2 />
     </>
