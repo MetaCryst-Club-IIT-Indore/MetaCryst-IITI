@@ -5,18 +5,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Loader from "./components/loader/loader";
 
 function App() {
-  // const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  //   const timer = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 2000);
-  //   return () => clearTimeout(timer);
-  // }, []);
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, []);
 
-  // if (isLoading) return <Loader />;
-  // else
+  if (isLoading) return <Loader />;
+  else
   return <Pages />;
 }
 

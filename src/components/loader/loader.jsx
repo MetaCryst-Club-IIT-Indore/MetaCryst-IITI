@@ -14,7 +14,7 @@ function Loader() {
     </div>
   </div></div>
   <div class="loader pl-6">
-   <div data-glitch="Loading..." class={styles.glitch}>Loading...</div>
+   <div data-glitch="Loading..." class={styles.glitch}>The MetaCryst Club </div>
 </div>
 </div></>
   );
