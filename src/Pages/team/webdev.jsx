@@ -9,6 +9,9 @@ import {
   Abhishek,
   // Shreyans,
   unknownboys,
+  Mohit,
+  Pranav,
+  Abhinav,
 } from "../../assets/team";
 
 function Webdev() {
@@ -42,7 +45,7 @@ function Webdev() {
       {
         name: "Mohit Garhewal",
         designation: "Member",
-        img: unknownb ,
+        img: Mohit ,
         ig: "https://www.instagram.com/garhewalmohit/profilecard/?igsh=OGRubTFzbnF3bXg4",
         lin: "https://www.linkedin.com/in/mohit-garhewal-a6578b320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         git: "https://github.com/mohitgarhewal",
@@ -50,7 +53,7 @@ function Webdev() {
       {
         name: "Pranav Manurkar",
         designation: "Member",
-        img: unknownb ,
+        img: Pranav ,
         ig: " ",
         lin: " ",
         git: "https://github.com/PranavManurkar",
@@ -58,7 +61,7 @@ function Webdev() {
       {
         name: "Abhinav Gurrapu",
         designation: "Member",
-        img: unknownb ,
+        img: Abhinav ,
         ig: " ",
         lin: "https://www.linkedin.com/in/g-abhinav-114399331",
         git: "https://github.com/AbhinavGurrapu",

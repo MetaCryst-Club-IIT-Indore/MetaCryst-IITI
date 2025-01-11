@@ -10,7 +10,13 @@ import Mrunal from './MrunalNandpure.jpg';
 import Dhairya from './DhairyaSrivastava.jpg';
 import Sahajmeet from './SahajmeetKaur.jpg';
 import Dhruv from './DhruvJain.png';
-
+import Apekshit from './Apekshit.jpg';
+import Mohit from './Mohit_Garhewal.jpg';
+import Pranav from './Pranav Manurkar.jpg';
+import Pragathi from './Pragathi.jpg';
+import Samridhi from './Samridhi.jpg';
+import Shaksham from './Shaksham_Nigam.jpg';
+import Abhinav from './Abhinav Gurrapu.jpg';
 
 
 export {
@@ -25,4 +31,11 @@ export {
     Dhruv,
     unknowngirls,
     unknownboys,
+    Samridhi,
+    Shaksham,
+    Mohit,
+    Pranav,
+    Pragathi,
+    Apekshit,
+    Abhinav,
 }

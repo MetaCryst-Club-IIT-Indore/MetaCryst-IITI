@@ -6,8 +6,12 @@ import unknowng from "../../assets/unknowngirls.webp"
 // import { FaInstagram, FaLinkedin, FaGithub } from "react-icons/fa";
 import Teamcard from "../../components/teamcard/teamcard"; // Make sure the path is correct
 import {
+  Apekshit,
   Dikshit,
+  Pragathi,
   Sahajmeet,
+  Samridhi,
+  Shaksham,
 } from "../../assets/team";
 
 function Members() {
@@ -21,14 +25,7 @@ function Members() {
             lin: "https://www.linkedin.com/in/aakash-sangvikar/",
             git: " ",
           },
-          {
-            name: "Abhinav Gurrapu",
-            designation: "Member",
-            img: unknownb ,
-            ig: " ",
-            lin: "https://www.linkedin.com/in/g-abhinav-114399331",
-            git: "https://github.com/AbhinavGurrapu",
-          },
+
           {
             name: "Aditya Sonkusare",
             designation: "Member",
@@ -48,7 +45,7 @@ function Members() {
           {
             name: "Apekshit",
             designation: "Member",
-            img: unknownb ,
+            img: Apekshit ,
             ig: " ",
             lin: "https://www.linkedin.com/in/apekshit-noutiyal-ba7808255/",
             git: " ",
@@ -117,30 +114,17 @@ function Members() {
             lin: "https://in.linkedin.com/in/dadhichmohak",
             git: "https://github.com/dadhichmohak",
           },
-          {
-            name: "Mohit Garhewal",
-            img: unknownb ,
-            designation: "Member",
-            ig: "https://www.instagram.com/garhewalmohit/profilecard/?igsh=OGRubTFzbnF3bXg4",
-            lin: "https://www.linkedin.com/in/mohit-garhewal-a6578b320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-            git: "https://github.com/mohitgarhewal",
-          },
+          
+
           {
             name: "Pragathi",
             designation: "Member",
-            img: unknowng ,
+            img: Pragathi ,
             ig: "https://www.instagram.com/prageeeeee/?next=%2F",
             lin: "https://www.linkedin.com/in/pragathi-p-038576334/",
             git: "https://github.com/PragathiPazhanivel",
           },
-          {
-            name: "Pranav Manurkar",
-            designation: "Member",
-            img: unknownb ,
-            ig: " ",
-            lin: "https://github.com/PranavManurkar",
-            git: " ",
-          },
+
           {
             name: "Sahajmeet Kaur",
             img: Sahajmeet ,
@@ -151,7 +135,7 @@ function Members() {
           },
           {
             name: "Shaksham Nigam",
-            img: unknownb ,
+            img: Shaksham ,
             designation: "Member",
             ig: "https://www.instagram.com/saksham_k.42/",
             lin: "https://www.linkedin.com/in/shaksham-kumar-nigam-847a862a7/",
@@ -159,7 +143,7 @@ function Members() {
           },
           {
             name: "Samridhi",
-            img: unknowng ,
+            img: Samridhi ,
             designation: "Member",
             ig: "https://www.instagram.com/_samridhiii_._24/profilecard/?igsh=MW16enJwYXNzcGx5ZA==",
             lin: "https://www.linkedin.com/in/samridhiii24?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
