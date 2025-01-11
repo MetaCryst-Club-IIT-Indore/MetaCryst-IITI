@@ -30,17 +30,20 @@ function Navbar() {
           </a>
         </div>
         <div style={{ margin: "1vh 2vw " }}>
-          <a
-            href="/"
-            style={{
-              fontSize: "5.5vh",
-              fontWeight: "bold",
-              color: "white",
-              textDecoration: "none",
-            }}
-            className={styles.name}>
-            The MetaCryst Club - IIT Indore
-          </a>
+        <div className={styles.container}>
+  <a
+    href="/"
+    style={{
+      fontSize: "5.5vh",
+      fontWeight: "bold",
+      color: "white",
+      textDecoration: "none",
+    }}
+    className={styles.name}>
+    The MetaCryst Club <span className={styles.iitIndore}>IIT Indore</span>
+  </a>
+</div>
+
         </div>
         <div>
           <a href="https://www.iiti.ac.in/" target="_blank">
