@@ -62,7 +62,7 @@ function Hero() {
       <div className="border-0 border-green-600 w-full md:w-1/2 order-1 md:order-2">
         <motion.div
           id="heading"
-          className="text-7xl my-[5vh] mx-[5vh] mb-[3vh]"
+          className="text-4xl md:text-7xl my-[5vh] mx-[5vh] mb-[3vh]"
           variants={smaller_top}
           animate={control}
           initial="hidden"
@@ -71,7 +71,7 @@ function Hero() {
         >
           Welcome to 
           <br/>
-          <span style={{ color: "rgb(199, 152, 223)" }} className="text-5xl"> The MetaCryst Club</span>
+          <span style={{ color: "rgb(199, 152, 223)" }} className="text-3xl md:text-5xl "> The MetaCryst Club</span>
           <div className="lg:block my-2 py-2 hidden font-bold text-3xl bg-gradient-to-r from-green-600 via-black-500 to-indigo-400 text-transparent bg-clip-text">
             <Typewriter className=""
               words={[
