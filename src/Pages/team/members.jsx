@@ -21,6 +21,8 @@ import {
   Shubham,
   Chirag,
   Ashwin,
+  Bhumika,
+  Keerthan,
 } from "../../assets/team";
 
 function Members() {
@@ -70,7 +72,7 @@ function Members() {
       {
         name: "Bhumika Aggarwal",
         designation: "Member",
-        img: unknowng,
+        img: Bhumika,
         ig: "https://www.instagram.com/bhumika_aggwl/",
         lin: "https://in.linkedin.com/in/bhumika-aggarwal-8a1453280",
         git: "https://github.com/BhumikaAggwl",
@@ -102,7 +104,7 @@ function Members() {
       {
         name: "Keerthan",
         designation: "Member",
-        img: unknownb,
+        img: Keerthan,
         ig: "https://www.instagram.com/a__keerthu/",
         lin: "https://www.linkedin.com/in/keerthan-arulmani-a7748b331/",
         git: "/",

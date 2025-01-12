@@ -25,6 +25,8 @@ import Aditya from './Aditya_S.jpg';
 import Shubham from './Shubham.jpg';
 import Chirag from './chirag.jpeg';
 import Ashwin from './Ashwin.jpg' ;
+import Bhumika from './Bhumika Aggarwal.jpg' ;
+import Keerthan from './Keerthan.jpg' ;
 export {
     Abhishek,
     Dikshit,
@@ -51,5 +53,7 @@ export {
     Aditya,
     Shubham,
     Ashwin,
+    Bhumika,
+    Keerthan,
     Chirag
 }
