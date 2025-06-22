@@ -9,23 +9,26 @@ import img from "../../assets/design.png";
 
 const data = [
   {
-    name: "Analysing CMT Weld joints",
+    name: "CMT Welding",
     description:
-      "Investigating the corrosion and mechanical behavior of ultrasonic-aided CMT (Cold Metal Transfer) weld joints focuses on enhancing the performance of similar and dissimilar aluminum alloys. This study aims to understand the impact of ultrasonic assistance on weld quality, strength, and resistance to corrosive environments.",
-    link: "https://www.youtube.com/watch?v=sEaV3wfx8Hw&pp=ygULY210IHdlbGRpbmc%3D",
+      "Investigating the corrosion and mechanical behaviour of ultrasonic-aided",
+      SkillsDevloped: "Understand the impact of ultrasonic assistance on weld quality, strength, and resistance to corrosive environments.",
+      link: "https://www.youtube.com/watch?v=sEaV3wfx8Hw&pp=ygULY210IHdlbGRpbmc%3D",
     imgurl: "https://ars.els-cdn.com/content/image/1-s2.0-S2214914717301022-gr1.jpg",
   },
   {
-    name: "Synthesis of Quantum Dots",
+    name: "Carbon Quantum Dots",
     description:
-      "Synthesizing carbon-based quantum dots involves creating nanoscale materials with unique optical and electronic properties. The focus is on understanding their characteristics to explore potential applications in bioimaging, sensing, and energy technologies.",
-    link: "https://www.youtube.com/watch?v=gBnH0jIzF_o&pp=ygUTbWFraW5nIHF1YW50dW0gZG90cw%3D%3D",
+      "To prepare carbon quantum dots using carbon-based quantum dots using common household ingredients and easily available equipment, trying to demonstrate the principles of nanotechnology and fluorescence.",
+      SkillsDevloped: "Synthesizing carbon quantum dots develops skills in nanomaterial synthesis, chemical handling, and advanced characterization techniques.",
+      link: "https://www.youtube.com/watch?v=gBnH0jIzF_o&pp=ygUTbWFraW5nIHF1YW50dW0gZG90cw%3D%3D",
     imgurl: "https://www.edn.com/wp-content/uploads/contenteetimes-images-edn-leds-lightfair-osram-quantum-dots.png",
   },
   {
     name: "Ferrofluids",
     description:
-      "Ferrofluid synthesis involves creating stable colloidal suspensions of magnetic nanoparticles, which respond to magnetic fields. Optimization focuses on improving their stability, magnetic properties, and performance for applications in sealing, damping, and biomedical fields.",
+      "Ferrofluids can be synthesized from hematite ore by first converting the iron oxide into magnetite (Fe₃O₄) through chemical co-precipitation using iron salts and a reducing agent. The resulting nanoparticles are then stabilized with a surfactant in a carrier liquid to form a stable  ,  magnetic colloidal suspension.",
+      SkillsDevloped: "Synthesizing ferrofluids from hematite ore helps develop skills in inorganic synthesis, nanoparticle handling, and colloidal chemistry",
     link: "https://www.youtube.com/watch?v=6L8yUY-doNc&pp=ygULZmVycm8gZmx1aWQ%3D",
     imgurl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDGvcQt1IrhGb10FTG0jR_o7pw8rC34F5j_w&s",
   },
